@@ -1,0 +1,10 @@
+  
+{
+    "name": "Comfy theme",
+    "description": "A Discord comfy theme",
+    "version": "1.0.0",
+    "author": "Nyria#2867",
+    "theme": "main.css",
+    "consent": "false",
+    "license": "MIT"
+}
