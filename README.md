@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/1LNF42V/comfy.png">
+<img src="https://i.ibb.co/j85zDZv/comfy.png">
 
 # 🛋️ Comfy-theme
 
