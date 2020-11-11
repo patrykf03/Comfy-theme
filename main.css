@@ -25,17 +25,6 @@
     background-color: #141727 !important;
 }
 
-/* -- Guild pannel -- */
-
-[aria-label="Serveurs"], [aria-label="Servers"], [aria-label="Servidores"], [aria-label="Server"]  {
-    position: fixed;
-    background: var(--background-tertiary) !important;
-    z-index: 6;
-}
-
-.wrapper-21YSNc, .wrapper-25eVIn, .blobContainer-239gwq { z-index: 7; }
-.circleButtonMask-2VNJsN, .arrow-gKvcEx { display: none; }
-
 /* -- Chat part -- */
 
 .channelTextArea-rNsIhG, .wrapper-39oAo3 { 
@@ -85,19 +74,20 @@
 
 /* -- User settings buttons -- */
 
-.container-3baos1 > .flex-1xMQg5 > .button-14-BFJ {
+.panels-j1Uci_ > .container-3baos1 {
     position: fixed;
-    color: #096dc0;
+    background-color: var(--background-tertiary) !important;
     z-index: 5;
+    bottom: 0px; left: 0px;
+    padding: 35px 20px 35px 20px;
+    margin: 0;
 }
 
-[aria-label="Paramètres utilisateur"], [aria-label="User Settings"], [aria-label="Benutzereinstellungen"], [aria-label="Ajustes de usuario"] { bottom: 15px; left: 20px;}
-[aria-label="Rendre muet"], [aria-label="Mute"], [aria-label="Stummschalten"], [aria-label="Silenciar"] { background-color: var(--background-tertiary); bottom: 52px; left: 20px;}
-[aria-label="Mettre en sourdine"], [aria-label="Deafen"], [aria-label="Ein- und Ausgabe deaktivieren"], [aria-label="Ensordecer"] {bottom: 90px; left: 20px;}
+.container-3baos1 > .flex-1xMQg5 { display: flex; flex-direction: column; }
+.flex-1xMQg5 > button { color: #096dc0; }
 
 .tooltip-2QfLtc { display: none; } /* Fuck tootips */
 
-.panels-j1Uci_ > .container-3baos1 { height: 0; } /* delete user pannel */
 .nameTag-3uD-yy.canCopy-2VBT7N { display: none; } /* delete username */
 
 /* -- User settings -- */
@@ -129,7 +119,7 @@
 .container-3ayLPN, .searchFilter-2ESiM3, .root-1gCeng, .modal-yWgWj-, .perksModal-fSYqOq, .searchAnswer-3Dz2-q { background-color: var(--background-primary) !important; }
 .option-96V44q.selected-rZcOL-, .container-1r6BKw.themed-ANHk51, .tierBody-16Chc9, .colorPrimary-3b3xI6 { background-color: var(--background-secondary) !important; }
 .tierHeaderLocked-1s2JJz, .barBackground-2EEiLw, .tierMarkerBackground-3q29am, .perk-2WeBWW  { background-color: var(--background-secondary-alt) !important; }
-.option-96V44q:after, .searchLearnMore-3SQUAj, .wordmark-2iDDfm > svg, .children-19S4PO:after { display: none; }
+.option-96V44q:after, .searchLearnMore-3SQUAj, .wordmark-2iDDfm > svg, .children-19S4PO:after, .arrow-gKvcEx { display: none; }
 
 .sprite-2iCowe { filter: grayscale(0) !important;} /* Adding some color */
 .attachButtonPlus-jWVFah { fill: #6E85D3 !important;}
