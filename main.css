@@ -49,6 +49,9 @@
     backdrop-filter: blur(1px);
 }
 
+.autocomplete-1vrmpx { background: var(--background-secondary-alt) !important; }
+.selected-1Tbx07 { background: var(--background-primary) !important; }
+
 /* -- Avatar -- */
 
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp { /* moving avatar */
