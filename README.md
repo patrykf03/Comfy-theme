@@ -1,7 +1,7 @@
 # 🛋️ Comfy-theme
 <img src="https://i.ibb.co/hCcJPMj/comfy.png">
 
-## Installation
+## 📥 Installation
 ### 🔌 Powercord
 * Open a terminal and run the following commands
 ```sh
