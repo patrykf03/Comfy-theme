@@ -3,7 +3,7 @@
 
 ## 📥 Installation
 ### 🔌 Powercord
-* Open a terminal and run the following commands
+Open a terminal and run the following commands
 ```sh
 cd (powercord dir)/src/Powercord/themes
 ```
