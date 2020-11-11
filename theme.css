@@ -1,1 +1,37 @@
-@import url("https://raw.githack.com/NYRI4/Comfy-theme/main/src/main.css")
+@import url("https://raw.githack.com/NYRI4/Comfy-theme/main/src/main.css");
+
+.theme-dark {
+    /* main */
+    --background-tertiary: #101320 !important;
+    --background-secondary: #1e2233 !important;
+    --background-secondary-alt: #191f2e !important;
+    --background-primary: #23283d !important;
+    --channeltextarea-background: #191f2e !important;
+    --background-accent: #101320 !important;
+    --background-modifier-hover: #1c2030 !important;
+    --background-modifier-active: #1a1e2e !important;
+    --background-modifier-selected: #191f2e !important;
+    --elevation-low: none;
+    --deprecated-card-bg: #12141f63 !important;
+    --background-floating: #101320 !important;
+
+    /* Scrollbars */
+    --scrollbar-auto-thumb: #121722 !important;
+    --scrollbar-auto-track: #191f2e !important;
+    --scrollbar-thin-thumb: #141925 !important;
+}
+
+.theme-light {
+    /* main */
+    --background-tertiary: #101320 !important;
+    --background-secondary: #1e2233 !important;
+    --background-secondary-alt: #191f2e !important;
+    --background-primary: #23283d !important;
+
+    --header-primary: #fff !important;
+    --header-secondary: #b1b5b9 !important;
+    --text-normal: #8e9297 !important;
+
+    /* Scrollbars */
+    --scrollbar-thin-thumb: #141925 !important;
+}
