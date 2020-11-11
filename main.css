@@ -40,12 +40,13 @@
 
 .channelTextArea-rNsIhG, .wrapper-39oAo3 { 
     width: auto;
-    margin: 0 0 24px 55px;
+    margin: 11px 0 24px 55px;
 }
 
-.jumpToPresentBar-G1R9s6 { 
+.jumpToPresentBar-G1R9s6 {
+    margin-bottom: -10px;
     margin-left: 55px; 
-    backdrop-filter: blur(1px); 
+    backdrop-filter: blur(1px);
 }
 
 /* -- Avatar -- */
