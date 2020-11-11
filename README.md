@@ -1,7 +1,12 @@
+# 🛋️ Comfy-theme
 <img src="https://i.ibb.co/hCcJPMj/comfy.png">
 
-# 🛋️ Comfy-theme
+## Installation
+### 🔌 Powercord
+* Open a terminal and run the following commands
+```sh
+cd (powercord dir)/src/Powercord/themes
 
+git clone https://github.com/NYRI4/Comfy-theme
 ```
-coming soon :3
-```
+*Note: `(powercord dir)` is frequently in C:\Users\USERNAME\powercord*
