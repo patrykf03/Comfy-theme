@@ -52,19 +52,8 @@
 
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 4px; }
 
-.content-98HsJk > .container-1D34oG::after, .content-98HsJk > .container-3Mxszk::after, .applicationStore-1pNvnv > .homeWrapperNormal-2KSUEa::after { /* hiding avatar in PM */
-    position: fixed;
-    bottom: 15px;
-    left: 325px;
-    z-index: 6;
-}
-
-.container-1D34oG::after, .container-3Mxszk::after, .homeWrapperNormal-2KSUEa::after { /* yep didn't find better */
-    content: "";
-    background: var(--background-primary)  !important;
-    padding: 30px;
-}
-
+.container-1D34oG, .applicationStore-1pNvnv { z-index: 6; }/* hiding avatar in PM */
+   
 /* -- User activity settings -- */
 
 .animatorTop-2Y7x2r > .styleFixed-sX-yHV { width: 43px; background: var(--background-tertiary);}
