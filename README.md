@@ -12,4 +12,3 @@ cd (powercord dir)/src/Powercord/themes
 git clone https://github.com/NYRI4/Comfy-theme
 ```
 * `(powercord dir)` is frequently C:/Users/USERNAME/powercord
-* Note : Some features will only work in some languages (French, English, Spanish and Deutsch) cause I'm bad at coding.
