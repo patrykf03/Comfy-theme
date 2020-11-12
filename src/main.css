@@ -1,3 +1,40 @@
+.theme-dark {
+    /* main */
+    --background-tertiary: #101320 !important;
+    --background-secondary: #1e2233 !important;
+    --background-secondary-alt: #191f2e !important;
+    --background-primary: #23283d !important;
+    --channeltextarea-background: #191f2e !important;
+    --background-accent: #101320 !important;
+    --background-modifier-hover: #1c2030 !important;
+    --background-modifier-active: #1a1e2e !important;
+    --background-modifier-selected: #191f2e !important;
+    --elevation-low: none;
+    --deprecated-card-bg: #12141f63 !important;
+    --background-floating: #101320 !important;
+    --deprecated-quickswitcher-input-background:#101320 !important;
+
+    /* Scrollbars */
+    --scrollbar-auto-thumb: #121722 !important;
+    --scrollbar-auto-track: #191f2e !important;
+    --scrollbar-thin-thumb: #141925 !important;
+}
+
+.theme-light {
+    /* main */
+    --background-tertiary: #101320 !important;
+    --background-secondary: #1e2233 !important;
+    --background-secondary-alt: #191f2e !important;
+    --background-primary: #23283d !important;
+
+    --header-primary: #fff !important;
+    --header-secondary: #b1b5b9 !important;
+    --text-normal: #8e9297 !important;
+
+    /* Scrollbars */
+    --scrollbar-thin-thumb: #141925 !important;
+}
+
 /* -- PM part -- */
 
 .peopleColumn-29fq28, .inset-3sAvek { background-color: var(--background-primary) !important; }
@@ -32,8 +69,7 @@
 
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 4px; }
 
-.container-1D34oG, .applicationStore-1pNvnv, .scroller-1d5FgU { z-index: 6; }/* hiding avatar in PM */
-   
+.container-1D34oG, .applicationStore-1pNvnv, .scroller-1d5FgU, .wrapper-2qzCYF.noChat-18KtB, .wrapper-2qzCYF { z-index: 6; }/* hiding avatar in PM */
 /* -- User activity settings -- */
 
 .animatorTop-2Y7x2r > .styleFixed-sX-yHV { width: 43px; background: var(--background-tertiary);}
@@ -52,10 +88,14 @@
     margin: 0;
 }
 
+.unreadMentionsIndicatorBottom-BXS58x {
+    position: fixed;
+    z-index: 6;
+    bottom: 110px; left: 0px;
+}
+
 .container-3baos1 > .flex-1xMQg5 { display: flex; flex-direction: column; }
 .flex-1xMQg5 > button { color: #096dc0; }
-
-.tooltip-2QfLtc { display: none; } /* Fuck tootips */
 
 .nameTag-3uD-yy.canCopy-2VBT7N { display: none; } /* delete username */
 
