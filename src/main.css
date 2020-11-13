@@ -108,7 +108,13 @@
 .headerSpotify-zpWxgT > .activityUserPopout-2yItg2 { background: #1DB954 !important;}
 .body-3iLsc4, .footer-1fjuF6 { background: var(--background-secondary) !important; }
 
-
+/* Popup agrandie d'un membre */
+.root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X { background: var(--background-tertiary) !important;}
+.activityProfile-2bJRaP { border-radius: 5px; margin: 0 13px 13px 13px;}
+.topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #1DB954 !important; }
+.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #7289DA !important; }
+.topSectionStreaming-1Tpf5X > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #593695 !important; }
+.actionButton-3W1xZa { background: var(--background-primary) !important;}
 
 /* --- 👤 PARAMETRE UTILISATEUR --- */
 
@@ -150,7 +156,7 @@
 /* Ecran d'acceuil */
 .colorPrimary-3b3xI6 { background: var(--background-secondary) !important; }
 
-/* Boost dans parametres*/
+/* Boost dans parametres */
 .tierBody-x9kBBp { background: var(--background-secondary) !important; }
 .tierHeaderContent-2-YfvN, .tierInProgress-3mBoXq { background: var(--background-secondary-alt) !important; }
 .background-3xPPFc { color: var(--background-secondary-alt) !important; }
