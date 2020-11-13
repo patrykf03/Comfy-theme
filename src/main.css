@@ -90,10 +90,10 @@
 .colorGrey-2DXtkV { background: #6E85D3 !important; }
 
 /* Barre de recherche */
-.container-3ayLPN, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .react-datepicker, .react-datepicker__header { background: var(--background-primary) !important; }
-.react-datepicker__day { background: var(--background-secondary) !important; }
-.react-datepicker__day:hover, .focused-2bY0OD { background: var(--background-secondary-alt) !important; }
-.dim-1l4L4y span { background: var(--background-accent) !important; }
+.container-3ayLPN, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .react-datepicker, .react-datepicker__header { background: var(--background-primary) !important;}
+.react-datepicker__day { background: var(--background-secondary) !important;}
+.react-datepicker__day:hover, .focused-2bY0OD { background: var(--background-secondary-alt) !important;}
+.dim-1l4L4y span { background: var(--background-accent) !important;}
 .searchLearnMore-3SQUAj, .option-96V44q:after { display: none; }
 
 
