@@ -8,7 +8,6 @@
 .wrapper-3Rixsz:hover, .memberListItem-31QoHj:hover, .body-1ld4H7 { background: var(--background-secondary-alt) !important;}
 
 
-
 /* --- 📜 PARTIE LISTE SERVEURS --- */
 
 /* Boutons utilisateur */
@@ -31,12 +30,10 @@
 .unreadMentionsIndicatorBottom-BXS58x { position: fixed; z-index: 6; bottom: 110px; left: 0px; }
 
 
-
 /* --- ✏️ PARTIE SALONS --- */
 
 /* Flèche catégeories */
 .mainContent-2h-GEV > .arrow-gKvcEx { display: none; }
-
 
 
 /* --- 💬 PARTIE TCHAT --- */
@@ -97,7 +94,6 @@
 .searchLearnMore-3SQUAj, .option-96V44q:after { display: none; }
 
 
-
 /* --- 👥 PARTIE MEMBRES --- */
 
 /* Popup d'un membre */
@@ -116,6 +112,7 @@
 .topSectionStreaming-1Tpf5X > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #593695 !important; }
 .actionButton-3W1xZa { background: var(--background-primary) !important;}
 
+
 /* --- 👤 PARAMETRE UTILISATEUR --- */
 
 /* Facturation */
@@ -126,7 +123,6 @@
 
 /* Activité de jeux */
 .notDetected-33MY4s { background: var(--background-secondary-alt) !important; }
-
 
 
 /* --- ⚙️ PARAMETRE SERVEUR --- */
@@ -170,8 +166,7 @@
 .card-FDVird::before { background: var(--background-secondary) !important; border-color: #101320 !important; }
 
 
-
-/* --- 🌺 OTHER THINGS --- */
+/* --- 🌺 AUTRE --- */
 
 /* Message de bienvenue */
 .main-3auUui { background: var(--background-primary) !important;}
