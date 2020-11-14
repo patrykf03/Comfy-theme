@@ -20,6 +20,8 @@
     margin-bottom: 0;
 }
 
+.scroller-2TZvBN { margin-bottom: 140px;}
+
 .flex-1xMQg5 > .button-14-BFJ { color: #096dc0; margin: 5px; }
 .container-3baos1 > .flex-1xMQg5:not(.spotify-buttons) { display: flex; flex-direction: column;}
 
@@ -168,13 +170,22 @@
 
 /* --- 🌺 AUTRE --- */
 
+/* Message rejoindre serveur */
+.contentWrapper-3WC1ID { background: var(--background-secondary) !important;}
+
 /* Message de bienvenue */
-.main-3auUui { background: var(--background-primary) !important;}
+.root-1gCeng:not(.modal-qgFCbT) { background: var(--background-secondary) !important;}
 
 /* Exporateur de serveurs */
 .css-ix84ef-menu { background: var(--background-secondary-alt) !important; }
 .pageWrapper-1PgVDX, .css-1adxh11-control, .css-12hk9yc-control, .css-1emou8a-control { background: var(--background-secondary) !important; }
 .theme-light .root-1gCeng, .theme-light .footer-2gL1pp { box-shadow: none; }
 
+/* Paramètres de notifications */
+.inner-1ilYF7 > .modal-yWgWj- > .header-1TKi98 { background: var(--background-secondary) !important; }
+.inner-1ilYF7 > .modal-yWgWj- > .scrollerBase-289Jih { background: var(--background-secondary) !important; }
 /* Suppresion du logo Discord */
-.wordmark-2iDDfm > svg, .children-19S4PO:after { display: none; }
+.wordmark-2iDDfm > svg, .children-19S4PO:after { display: none; } 
+
+/* Popout "Regarder le stream" */
+.body-Ogsp8i { background: var(--background-tertiary) !important;}
