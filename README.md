@@ -1,5 +1,5 @@
 # 🛋️ Comfy-theme
-<img src="https://i.ibb.co/nf5tGpT/comfy.png">
+<img src="https://i.ibb.co/DLWY37G/comfy.png">
 
 ## 📥 Installation
 ### 🔌 Powercord
