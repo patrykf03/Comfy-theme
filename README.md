@@ -13,7 +13,7 @@ cd (powercord-dir)/src/Powercord/themes && git clone https://github.com/NYRI4/Co
 ## 🖼️ Preview
 
 ### User card
-<img src="https://i.ibb.co/vhxK5H6/comfy2.png">
+<img src="https://i.ibb.co/h2PmJ2W/comfy2.png">
 
 ### User status picker
 <img src="https://i.ibb.co/nbvW9vK/comfy3.png">
