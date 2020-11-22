@@ -2,7 +2,6 @@
 <img src="https://i.ibb.co/DLWY37G/comfy.png">
 
 ## 📥 Installation
-### 🔌 Powercord
 
 </br>Open a terminal and run the following commands
 ```sh
