@@ -17,7 +17,7 @@
 /* --- 📜 PARTIE LISTE SERVEURS --- */
 
 /* Boutons utilisateur */
-.panels-j1Uci_ > .container-3baos1 {
+.panels-j1Uci_ > .container-3baos1:not(.vp-audioviz-visualizer) {
     position: fixed;
     background: var(--background-tertiary) !important;
     z-index: 5;
@@ -36,6 +36,8 @@
 
 /* Notification de mention */
 .unreadMentionsIndicatorBottom-BXS58x { position: fixed; z-index: 6; bottom: 110px; left: 0px; }
+
+.vp-audioviz-bar { background: #042d50fb; }
 
 /* --- ✏️ PARTIE SALONS --- */
 
