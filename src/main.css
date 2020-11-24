@@ -55,6 +55,9 @@
 /* Barre de news */
 .wrapper-39oAo3 { width: auto; margin: 11px 0 24px 55px;}
 
+/* Bouton 'Suivre' */
+.children-19S4PO > .followButton-L6L-Us { background: var(--background-secondary-alt) !important; }
+
 /* Revenir aux messages récents */
 .jumpToPresentBar-G1R9s6, .jumpToPresentBar-G1R9s6:active { margin-bottom: -10px; margin-left: 55px;}
 
@@ -107,23 +110,27 @@
 /* Popup d'un membre */
 .headerNormal-T_seeN, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT { background: var(--background-secondary-alt) !important;}
 .activityUserPopout-2yItg2 { border-radius: 5px; margin: 0 8px 12px 8px; padding: 10px;}
-.headerPlaying-j0WQBV > .activityUserPopout-2yItg2 { background: #7289DA;}
-.headerStreaming-2FjmGz > .activityUserPopout-2yItg2 { background: #593695;}
-.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 { background: #1DB954;}
+.headerPlaying-j0WQBV > .activityUserPopout-2yItg2 { background: #7289DA !important;}
+.headerStreaming-2FjmGz > .activityUserPopout-2yItg2 { background: #593695 !important;}
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 { background: #1DB954 !important;}
 .body-3iLsc4, .footer-1fjuF6 { background: var(--background-secondary) !important; }
 
 /* Popup agrandie d'un membre */
 .root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X { background: var(--background-tertiary) !important;}
 .activityProfile-2bJRaP { border-radius: 5px; margin: 0 13px 13px 13px;}
-.topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #1DB954; }
-.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #7289DA; }
-.topSectionStreaming-1Tpf5X > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #593695; }
+.topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #1DB954 !important; }
+.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #7289DA !important; }
+.topSectionStreaming-1Tpf5X > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #593695 !important; }
 .actionButton-3W1xZa { background: var(--background-primary) !important;}
 
 /* --- 👤 PARAMETRE UTILISATEUR --- */
 
 /* Facturation */
 .paymentRow-2e7VM6, .pageActions-1SVAnA, .codeRedemptionRedirect-1wVR4b { background: var(--background-secondary-alt) !important; }
+.expandedInfo-3kfShd { background: var(--background-secondary) !important; }
+
+/* Abonnements */
+.detailsBlock-FoDTGA > div > div > .colorPrimary-3b3xI6 { background: #7289DA !important; }
 
 /* Voix & Vidéo */
 .previewOverlayInner-1WXURq { background: var(--background-secondary-alt) !important; }
