@@ -1,0 +1,39 @@
+/**
+ * @name Comfy-theme
+ * @author Nyria#0001
+ * @description A comfy theme for Discord
+ * @version 1.0.0
+ */
+
+@import url("https://nyri4.github.io/Comfy-theme/src/main.css");
+
+.theme-dark {
+    --background-tertiary: #101320 !important;
+    --background-secondary: #1e2233 !important;
+    --background-secondary-alt: #191f2e !important;
+    --background-primary: #23283d !important;
+    --channeltextarea-background: #191f2e !important;
+    --background-accent: #6E85D3 !important;
+    --background-modifier-hover: #1c2030 !important;
+    --background-modifier-active: #1a1e2e !important;
+    --background-modifier-selected: #191f2e !important;
+    --deprecated-card-bg: #12141f63 !important;
+    --background-floating: #101320 !important;
+    --deprecated-quickswitcher-input-background:#101320 !important;
+    --scrollbar-auto-thumb: #121722 !important;
+    --scrollbar-auto-track: #191f2e !important;
+    --scrollbar-thin-thumb: #141925 !important;
+    --spotify-color: #096dc0 !important;
+    --elevation-low: none;
+}
+
+.theme-light {
+    --background-tertiary: #101320 !important;
+    --background-secondary: #1e2233 !important;
+    --background-secondary-alt: #191f2e !important;
+    --background-primary: #23283d !important;
+    --header-primary: #fff !important;
+    --header-secondary: #b1b5b9 !important;
+    --text-normal: #8e9297 !important;
+    --scrollbar-thin-thumb: #141925 !important;
+}
