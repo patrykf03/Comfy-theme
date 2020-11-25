@@ -16,7 +16,9 @@ Need help ?
 
 ### BetterDiscord
 
-Download the theme [here](https://nyri4.github.io/Comfy-theme/src/main.css).
+1. Go [here](https://nyri4.github.io/Comfy-theme/src/main.css)
+2. Press CTRL + S
+3. Save the file into your theme folder
 
 Need help ?
 - [BD User Guide](https://0x71.cc/bd/guide/#install-theme-win)
