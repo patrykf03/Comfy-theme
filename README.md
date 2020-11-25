@@ -3,7 +3,7 @@
 
 ## 📥 Installation
 
-# Powercord
+### Powercord
 
 </br>Open a terminal and run the following commands
 ```sh
@@ -14,7 +14,7 @@ cd (powercord-dir)/src/Powercord/themes && git clone https://github.com/NYRI4/Co
 Need help ? 
 - [Discord](https://discord.gg/esB8HudVHN)
 
-# BetterDiscord
+### BetterDiscord
 
 Download the theme [here](https://nyri4.github.io/Comfy-theme/src/main.css).
 
