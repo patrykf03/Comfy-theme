@@ -16,7 +16,7 @@ Need help ?
 
 ### BetterDiscord
 
-1. Go [here](https://github.com/NYRI4/Comfy-theme/blob/main/BetterDiscord/comfy.theme.css)
+1. Go [here](https://nyri4.github.io/Comfy-theme/BetterDiscord/comfy.theme.css)
 2. Press CTRL + S
 3. Save the file into your theme folder
 
