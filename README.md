@@ -1,5 +1,5 @@
 # Comfy-theme
-<img src="https://i.ibb.co/XW40Rxj/comfy.png">
+<img src="https://i.ibb.co/mRN7Nr6/comfy.png">
 
 ## 📥 Installation
 
