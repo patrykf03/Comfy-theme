@@ -31,6 +31,21 @@
 .flex-1xMQg5 > .button-14-BFJ { color: #096dc0; margin: 5px; }
 .container-3baos1 > .flex-1xMQg5:not(.spotify-buttons) { display: flex; flex-direction: column;}
 
+[aria-label="Hide Game Activity"], [aria-label="Show Game Activity"] {
+    position: fixed;
+    bottom: 136px; left: 15px;
+    z-index: 5;
+}
+
+[aria-label="Hide Game Activity"]::after, [aria-label="Show Game Activity"]::after {
+    position: fixed;
+    content: "";
+    background: var(--background-tertiary) !important;
+    bottom: 141px; left: 0px;
+    padding: 42px 72px 0 0;
+    z-index: -1;
+}
+
 /* Supprime le nom de l'utilsateur */
 .canCopy-2VBT7N { display: none; } 
 
@@ -108,20 +123,69 @@
 /* --- 👥 PARTIE MEMBRES --- */
 
 /* Popup d'un membre */
-.headerNormal-T_seeN, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT { background: var(--background-secondary-alt) !important;}
-.activityUserPopout-2yItg2 { border-radius: 5px; margin: 0 8px 12px 8px; padding: 10px;}
-.headerPlaying-j0WQBV > .activityUserPopout-2yItg2 { background: #7289DA !important;}
-.headerStreaming-2FjmGz > .activityUserPopout-2yItg2 { background: #593695 !important;}
-.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 { background: #1DB954 !important;}
+.headerNormal-T_seeN, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .headerSpotify-zpWxgT { background: #151b27 !important;}
+.activityUserPopout-2yItg2 { border-radius: 5px; margin: 0 8px 15px 8px; padding: 10px;}
+.headerPlaying-j0WQBV > .activityUserPopout-2yItg2 { background: #7289DA !important; box-shadow: 0px 4px 0px #46599c;}
+.headerSpotify-zpWxgT > .activityUserPopout-2yItg2 { background: #1DB954 !important; box-shadow: 0px 4px 0px #11923e;}
+.headerStreaming-2FjmGz > .activityUserPopout-2yItg2 { background: #593695 !important; box-shadow: 0px 4px 0px #47287c;}
+
 .body-3iLsc4, .footer-1fjuF6 { background: var(--background-secondary) !important; }
 
-/* Popup agrandie d'un membre */
+.role-2irmRk {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: solid;
+    border-width: 0px 0px 0px 3px;
+    border-radius: 1px 3px 3px 1px;
+}
+
+.roleCircle-3xAZ1j { width: 7px; height: 7px;}
+
+.roleCircle-3xAZ1j::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/* - Popup agrandie d'un membre - */
+
+/* Status */
 .root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X { background: var(--background-tertiary) !important;}
 .activityProfile-2bJRaP { border-radius: 5px; margin: 0 13px 13px 13px;}
-.topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #1DB954 !important; }
-.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #7289DA !important; }
-.topSectionStreaming-1Tpf5X > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #593695 !important; }
+.topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #7289DA !important; box-shadow: 0px 4px 0px #46599c;}
+.topSectionSpotify-1lI0-P > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #1DB954 !important;  box-shadow: 0px 4px 0px #11923e;}
+.topSectionStreaming-1Tpf5X > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #593695 !important; box-shadow: 0px 4px 0px #47287c;}
 .actionButton-3W1xZa { background: var(--background-primary) !important;}
+
+/* Réseaux sociaux */
+.connectedAccount-36nQx7 {
+    border: solid #151b27;
+    border-width: 1.2px 1.2px 3px 1.2px;
+    border-radius: 4px;
+    padding: 0 20px 0 0;
+}
+
+.connectedAccountIcon-3P3V6F { padding: 8px; border-radius: 4px 0 0 4px;}
+[alt="Logo Twitter"] { background: #1da0f248; }
+[alt="Logo Twitch"] { background: #601bd852; }
+[alt="Logo YouTube"] { background: #d9252b49; }
+[alt="Logo Battle.net"] { background: #0098e446; }
+[alt="Logo Steam"] { background: #ffffff18; }
+[alt="Logo Reddit"] { background:#fe44013d; }
+[alt="Logo Facebook"] { background: #1da0f248; }
+[alt="Logo Spotify"] { background: #1ed75f34; }
+[alt="Logo Xbox Live"] { background: #5dc21e42; }
+[alt="Logo League of Legends"] { background: #cea14638; }
+[alt="Logo GitHub"] { background: #ffffff18; }
+
+.connectedAccountName-f8AEe2 { margin-left: 13px;}
 
 /* --- 👤 PARAMETRE UTILISATEUR --- */
 
@@ -199,3 +263,9 @@
 
 /* Popout "Regarder le stream" */
 .body-Ogsp8i { background: var(--background-tertiary) !important;}
+
+/* Popout supprimer un message */
+.message-2qRu38 { background: var(--background-primary) !important; }
+
+/* Infobulles */
+.tooltip-2QfLtc { background: var(--background-tertiary) !important; }

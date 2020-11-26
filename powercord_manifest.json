@@ -2,7 +2,7 @@
 {
     "name": "Comfy theme",
     "description": "A Discord comfy theme",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "author": "Nyria#0001",
     "theme": "theme.css",
     "consent": "false",
