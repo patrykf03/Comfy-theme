@@ -50,7 +50,7 @@
 .canCopy-2VBT7N { display: none; } 
 
 /* Notification de mention */
-.unreadMentionsIndicatorBottom-BXS58x { position: fixed; z-index: 6; bottom: 110px; left: 0px; }
+.unreadMentionsIndicatorBottom-BXS58x { margin-bottom: 35px;}
 
 .vp-audioviz-bar { background: #042d50fb; }
 
@@ -200,10 +200,15 @@
 .previewOverlayInner-1WXURq { background: var(--background-secondary-alt) !important; }
 
 /* Activité de jeux */
-.notDetected-33MY4s { background: var(--background-secondary-alt) !important; }
+.notDetected-33MY4s, .addGamePopout-2RY8Ju { background: var(--background-secondary-alt) !important; }
 
 /* --- ⚙️ PARAMETRE SERVEUR --- */
 
+/* Selecteur de pays */
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 { background: var(--background-secondary-alt) !important; border: none;}
+
+/* Roles */
+.colorPickerCustom-2CWBn2 { background: var(--background-secondary) !important; }
 /* Emoji */
 .emojiInput-1aLNse { background: var(--background-secondary-alt) !important;}
 
@@ -239,6 +244,9 @@
 .tierMarkerBackground-3q29am, .tierHeaderLocked-1s2JJz, .barBackground-2EEiLw, .icon-TYbVk4 { background: var(--background-secondary-alt) !important; }
 .option-96V44q.selected-rZcOL-, .tierBody-16Chc9, .perk-2WeBWW, .tierMarkerInProgress-24LMzJ { background: var(--background-secondary) !important; }
 
+/* Membres */
+.overflowRolesPopout-140n9i{ background: var(--background-secondary) !important; }
+
 /* Bannissements */
 .card-FDVird::before { background: var(--background-secondary) !important; border-color: #101320 !important; }
 
@@ -269,3 +277,10 @@
 
 /* Infobulles */
 .tooltip-2QfLtc { background: var(--background-tertiary) !important; }
+
+/* Combo clavier */
+.keyboardShortcutsModal-3piNz7 { background: var(--background-primary) !important; }
+
+/* Jeux de Discord */
+.scroller-1JpcIc { background: var(--background-primary) !important; }
+.whyYouMightLikeIt-2zZIIj, .content-35aVm0, .bodySection-jqkkIP, .row-1bU71H { background: var(--background-secondary) !important; }
