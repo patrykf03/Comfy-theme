@@ -1,5 +1,5 @@
 # 🛋️ Comfy-theme
-<img src="https://i.ibb.co/DLWY37G/comfy.png">
+<img src="https://i.ibb.co/XW40Rxj/comfy.png">
 
 ## 📥 Installation
 
@@ -26,7 +26,7 @@ Need help ?
 ## 🖼️ Preview
 
 ### User card
-<img src="https://i.ibb.co/h2PmJ2W/comfy2.png">
+<img src="https://i.ibb.co/pwTtr1v/Capture.png">
 
 ### User status picker
 <img src="https://i.ibb.co/nbvW9vK/comfy3.png">
