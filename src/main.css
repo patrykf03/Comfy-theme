@@ -154,7 +154,17 @@
     z-index: -1;
 }
 
+/* Meilleur avatar dans les popouts */
+:root { --avatar-radius: 100% }
+.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: none; }
+.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 foreignObject, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: none !important; border-radius: var(--avatar-radius); }
+.avatarHint-1qgaV3 foreignObject { mask: none !important; border-radius: var(--avatar-radius); }
+
 /* - Popup agrandie d'un membre - */
+
+/* Badges */
+.profileBadges-2vWUYb { display: flex; flex-wrap: wrap; }
+.profileBadgeWrapper-1rGSsp { padding-bottom: 7px; }
 
 /* Status */
 .root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X { background: var(--background-tertiary) !important;}
