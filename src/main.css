@@ -107,6 +107,7 @@
 /* Selecteur d'emotes */
 .sprite-2iCowe { filter: grayscale(0) !important;}
 .emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
+.imageLoading-bpSr0M { background: var(--background-secondary-alt) !important;}
 
 /* Bouttons en bleu */
 .attachButtonPlus-jWVFah { fill: #6E85D3 !important;}
