@@ -28,7 +28,7 @@
 
 .scroller-2TZvBN { margin-bottom: 140px;}
 
-.flex-1xMQg5 > .button-14-BFJ { color: #096dc0; margin: 5px; }
+.flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons); margin: 5px; }
 .container-3baos1 > .flex-1xMQg5:not(.spotify-buttons) { display: flex; flex-direction: column;}
 
 .flex-1xMQg5 > [aria-label="Hide Game Activity"], .flex-1xMQg5 > [aria-label="Show Game Activity"] { position: fixed; bottom: 136px; left: 15px; z-index: 5;}
@@ -45,7 +45,7 @@
 .canCopy-2VBT7N { display: none; } 
 
 /* Notification de mention */
-.unreadMentionsIndicatorBottom-BXS58x { margin-bottom: 35px;}
+.unreadMentionsIndicatorBottom-BXS58x { margin-bottom: 135px;}
 
 .vp-audioviz-bar { background: #042d50fb; }
 
@@ -58,6 +58,7 @@
 
 /* Barre du salon */
 .container-1r6BKw { background: var(--background-secondary) !important; }
+.children-19S4PO:after { display: none;}
 
 /* Barre de tchat */
 .channelTextArea-rNsIhG { width: auto; margin: 11px 0 24px 55px;}
@@ -100,8 +101,8 @@
 .description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
 [aria-label="Hide Game Activity"] > svg, [aria-label="Show Game Activity"] > svg { margin-left: -2px;}
 
-.menu-3sdvDG::after { 
-    content: " ";
+.animatorTop-2Y7x2r > .menu-3sdvDG::after { 
+    content: "";
     position: absolute;
     top: 100%;
     left: 50%;
@@ -112,13 +113,13 @@
 }
 
 /* Selecteur d'emotes */
-.sprite-2iCowe { filter: grayscale(0) !important;}
+.sprite-2iCowe { filter: var(--colored-emoji) !important;}
 .emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
 
 /* i'm blue dabedi dabeda */
-.attachButtonPlus-jWVFah { fill: #6E85D3 !important;}
-.buttonWrapper-1ZmCpA, .icon-3D60ES { color: #6E85D3 !important; }
-.colorGrey-2DXtkV { background: #6E85D3 !important; }
+.attachButtonPlus-jWVFah { fill: var(--chat-buttons) !important;}
+.buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons) !important; }
+.colorGrey-2DXtkV { background: var(--chat-buttons) !important; }
 
 /* Barre de recherche */
 .container-3ayLPN, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .react-datepicker, .react-datepicker__header { background: var(--background-primary) !important;}
@@ -147,7 +148,7 @@
     border-radius: 1px 3px 3px 1px;
 }
 
-.roleCircle-3xAZ1j { width: 7px; height: 7px;}
+.roleCircle-3xAZ1j { width: var(--role-circle); height: var(--role-circle);}
 
 .roleCircle-3xAZ1j::before {
     position: absolute;
@@ -162,10 +163,9 @@
 }
 
 /* Meilleur avatar dans les popouts */
-:root { --avatar-radius: 100% }
-.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: none; }
-.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 foreignObject, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: none !important; border-radius: var(--avatar-radius); }
-.avatarHint-1qgaV3 foreignObject { mask: none !important; border-radius: var(--avatar-radius); }
+.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: var(--popout-status-icon); }
+.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 foreignObject, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
+.avatarHint-1qgaV3 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
 
 /* - Popup agrandie d'un membre - */
 
@@ -283,8 +283,9 @@
 /* Paramètres de notifications */
 .inner-1ilYF7 > .modal-yWgWj- > .header-1TKi98 { background: var(--background-secondary) !important; }
 .inner-1ilYF7 > .modal-yWgWj- > .scrollerBase-289Jih { background: var(--background-secondary) !important; }
+
 /* Suppresion du logo Discord */
-.wordmark-2iDDfm > svg, .children-19S4PO:after { display: none; } 
+.wordmark-2iDDfm > svg { display: var(--discord-logo); } 
 
 /* Popout "Regarder le stream" */
 .body-Ogsp8i { background: var(--background-tertiary) !important;}
@@ -293,7 +294,7 @@
 .message-2qRu38 { background: var(--background-primary) !important; }
 
 /* Infobulles */
-.tooltip-2QfLtc { background: var(--background-tertiary) !important; }
+.tooltip-2QfLtc { display: var(--tooltips); background: var(--background-tertiary) !important;}
 
 /* Combo clavier */
 .keyboardShortcutsModal-3piNz7 { background: var(--background-primary) !important; }

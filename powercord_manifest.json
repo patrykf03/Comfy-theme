@@ -1,10 +1,9 @@
-  
 {
     "name": "Comfy theme",
     "description": "A Discord comfy theme",
     "version": "1.2.0",
     "author": "Nyria#0001",
-    "theme": "theme.css",
+    "theme": "theme.scss",
     "consent": "false",
     "license": "MIT"
 }

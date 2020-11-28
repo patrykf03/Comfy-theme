@@ -1,5 +1,7 @@
 @import url("https://nyri4.github.io/Comfy-theme/src/main.css");
 
+@use "custom.scss";
+
 .theme-dark {
     --background-tertiary: #101320;
     --background-secondary: #1e2233;
