@@ -100,6 +100,17 @@
 .description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
 [aria-label="Hide Game Activity"] > svg, [aria-label="Show Game Activity"] > svg { margin-left: -2px;}
 
+.menu-3sdvDG::after { 
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--background-tertiary) transparent transparent transparent;
+}
+
 /* Selecteur d'emotes */
 .sprite-2iCowe { filter: grayscale(0) !important;}
 .emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
@@ -290,3 +301,6 @@
 /* Jeux de Discord */
 .scroller-1JpcIc { background: var(--background-primary) !important; }
 .whyYouMightLikeIt-2zZIIj, .content-35aVm0, .bodySection-jqkkIP, .row-1bU71H { background: var(--background-secondary) !important; }
+
+/* Activité de jeux */
+.activityPanel-28dQGo { border-bottom: none; }
