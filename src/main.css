@@ -103,11 +103,10 @@
 /* Selecteur d'emotes */
 .sprite-2iCowe { filter: grayscale(0) !important;}
 .emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
-.imageLoading-bpSr0M { background: var(--background-secondary-alt) !important;}
 
-/* Bouttons en bleu */
+/* i'm blue dabedi dabeda */
 .attachButtonPlus-jWVFah { fill: #6E85D3 !important;}
-.buttonWrapper-1ZmCpA { color: #6E85D3 !important; }
+.buttonWrapper-1ZmCpA, .icon-3D60ES { color: #6E85D3 !important; }
 .colorGrey-2DXtkV { background: #6E85D3 !important; }
 
 /* Barre de recherche */
