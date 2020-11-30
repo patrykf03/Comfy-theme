@@ -5,7 +5,7 @@
  * @version 1.0.0
  */
 
-@import url("https://nyri4.github.io/Comfy-theme/src/main.css");
+@import "https://nyri4.github.io/Comfy-theme/BetterDiscord/main.css";
 
 .theme-dark {
     --background-tertiary: #101320 !important;
