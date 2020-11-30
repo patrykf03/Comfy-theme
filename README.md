@@ -30,3 +30,7 @@ Need help ?
 
 ### User status picker
 <img src="https://i.ibb.co/nbvW9vK/comfy3.png">
+
+## Credits
+
+Thanks a lot to Snapperito, Harley and others peeps that I forgot for the help !
