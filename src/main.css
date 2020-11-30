@@ -60,6 +60,9 @@
 .container-1r6BKw { background: var(--background-secondary) !important; }
 .children-19S4PO:after { display: none;}
 
+/* Nouveaux messages */
+.newMessagesBar-265mhP { background-color: #6e85d3; border-radius: 50px; margin-top: 5px; }
+
 /* Barre de tchat */
 .channelTextArea-rNsIhG { width: auto; margin: 11px 0 24px 55px;}
 
@@ -70,7 +73,7 @@
 .children-19S4PO > .followButton-L6L-Us { background: var(--background-secondary-alt) !important; }
 
 /* Revenir aux messages récents */
-.jumpToPresentBar-G1R9s6, .jumpToPresentBar-G1R9s6:active { margin-bottom: -10px; margin-left: 55px;}
+.jumpToPresentBar-G1R9s6, .jumpToPresentBar-G1R9s6:active { margin-bottom: 2px; margin-left: 55px; border-radius: 50px; padding: 0;}
 
 /* Menu # ou @ */
 .autocomplete-1vrmpx { background: var(--background-secondary-alt) !important;}
@@ -139,6 +142,7 @@
 
 .body-3iLsc4, .footer-1fjuF6 { background: var(--background-secondary) !important; }
 
+/* Roles */
 .role-2irmRk {
     position: relative;
     overflow: hidden;
@@ -162,12 +166,12 @@
     z-index: -1;
 }
 
-/* Meilleur avatar dans les popouts */
-.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: var(--popout-status-icon); }
-.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 foreignObject, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
-.avatarHint-1qgaV3 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
-
 /* - Popup agrandie d'un membre - */
+
+/* Meilleur avatar dans les popouts */
+.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: var(--big-popout-status-icon); }
+.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: var(--big-popout-status-mask); border-radius: var(--big-avatar-radius); }
+.header-QKLPzZ > .wrapper-3t9DeA > .avatarHint-1qgaV3 foreignObject { mask: var(--big-popout-status-mask); border-radius: var(--big-avatar-radius); }
 
 /* Badges */
 .profileBadges-2vWUYb { display: flex; flex-wrap: wrap; }

@@ -3,9 +3,10 @@
     // -- Addons --
 
     // BetterAvatar Popout
-    --popout-status-icon: none; // Set it to "block" if u want to have the status icon in popouts
-    --popout-status-mask: none; // Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in popouts
-    --avatar-radius: 100%; // Change the roundness of avatar in popouts, u need to disable the mask to use this
+
+    --big-popout-status-icon: none; // Set it to "block" if u want to have the status icon in big popouts
+    --big-popout-status-mask: none; // Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts
+    --big-avatar-radius: 10%; // Change the roundness of avatar in big popouts, u need to disable the mask to use this
 
     // Colored emoji picker
     --colored-emoji: grayscale(0%); // Change the value to "100%" if u want the basic one
@@ -27,4 +28,4 @@
     // Discord logo
     --discord-logo: none; // Set it to "block" if u want it
 
-} // thx snapperito#0001 for the help :3
+} // thx snapperito and Harley for the help :3
