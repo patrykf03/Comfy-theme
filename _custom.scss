@@ -3,9 +3,9 @@
     // -- Addons --
 
     // BetterAvatar Popout
-    --popout-status-icon: block; // Set it to "block" if u want to have the status icon in popouts
-    --popout-status-mask: url(#svg-mask-avatar-status-round-80); // Set it to "none" if u want to disable the avatar mask in popouts
-    --avatar-radius: 0%; // Change the roundness of avatar in popouts, u need to disable the mask to use this
+    --popout-status-icon: none; // Set it to "block" if u want to have the status icon in popouts
+    --popout-status-mask: none; // Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in popouts
+    --avatar-radius: 100%; // Change the roundness of avatar in popouts, u need to disable the mask to use this
 
     // Colored emoji picker
     --colored-emoji: grayscale(0%); // Change the value to "100%" if u want the basic one
