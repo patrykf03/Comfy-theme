@@ -1,3 +1,35 @@
+:root { 
+
+    /* -- Addons -- */
+
+    /* BetterAvatar Popout */
+
+    --popout-status-icon: none; /* Set it to "block" if u want to have the status icon in big popouts */
+    --popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
+    --avatar-radius: 10%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
+
+    /* Colored emoji picker */
+    --colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
+
+    /* -- Others settings -- */
+
+    /* User settings, Mute and Deafen buttons color */
+    --user-buttons: #096dc0;
+
+    /* User buttons color */
+    --chat-buttons: #6E85D3;
+
+    /* Circles next to role names */
+    --role-circle: 7px; /* Set it to "0px" if u don't want circles */
+
+    /* Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png) */
+    --tooltips: block; /* Set it to "none" if u don't want it */
+
+    /* Discord logo */
+    --discord-logo: none; /* Set it to "block" if u want it */
+
+} /* thx snapperito and Harley for the help :3
+
 /* --- 😀 PARTIE MP --- */
 
 /* Collone amis */
@@ -28,7 +60,7 @@
 
 .scroller-2TZvBN { margin-bottom: 140px;}
 
-.flex-1xMQg5 > .button-14-BFJ { color: #096dc0; margin: 5px; }
+.flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons); margin: 5px; }
 .container-3baos1 > .flex-1xMQg5:not(.spotify-buttons) { display: flex; flex-direction: column;}
 
 .flex-1xMQg5 > [aria-label="Hide Game Activity"], .flex-1xMQg5 > [aria-label="Show Game Activity"] { position: fixed; bottom: 136px; left: 15px; z-index: 5;}
@@ -116,13 +148,13 @@
 }
 
 /* Selecteur d'emotes */
-.sprite-2iCowe { filter: grayscale(0%) !important;}
+.sprite-2iCowe { filter: var(--colored-emoji) !important;}
 .emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
 
 /* i'm blue dabedi dabeda */
-.attachButtonPlus-jWVFah { fill: #6E85D3 !important;}
-.buttonWrapper-1ZmCpA, .icon-3D60ES { color: #6E85D3 !important; }
-.colorGrey-2DXtkV { background: #6E85D3 !important; }
+.attachButtonPlus-jWVFah { fill: var(--chat-buttons) !important;}
+.buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons) !important; }
+.colorGrey-2DXtkV { background: var(--chat-buttons) !important; }
 
 /* Barre de recherche */
 .container-3ayLPN, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .react-datepicker, .react-datepicker__header { background: var(--background-primary) !important;}
@@ -153,7 +185,7 @@
     border-radius: 1px 3px 3px 1px;
 }
 
-.roleCircle-3xAZ1j { width: 7px; height: 7px;}
+.roleCircle-3xAZ1j { width: var(--role-circle)px; height: var(--role-circle)px;}
 
 .roleCircle-3xAZ1j::before {
     position: absolute;
@@ -170,9 +202,9 @@
 /* - Popup agrandie d'un membre - */
 
 /* Meilleur avatar dans les popouts */
-.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: none; }
-.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: none; border-radius: var(--avatar-radius); }
-.header-QKLPzZ > .wrapper-3t9DeA > .avatarHint-1qgaV3 foreignObject { mask: none; border-radius: var(--avatar-radius); }
+.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: var(--popout-status-icon); }
+.header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
+.header-QKLPzZ > .wrapper-3t9DeA > .avatarHint-1qgaV3 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
 
 /* Badges */
 .headerInfo-30uryT > .profileBadges-2vWUYb { display: flex; flex-wrap: wrap; }
@@ -291,7 +323,7 @@
 .inner-1ilYF7 > .modal-yWgWj- > .scrollerBase-289Jih { background: var(--background-secondary) !important; }
 
 /* Suppresion du logo Discord */
-.wordmark-2iDDfm > svg { display: none; } 
+.wordmark-2iDDfm > svg { display: var(--discord-logo); } 
 
 /* Popout "Regarder le stream" */
 .body-Ogsp8i { background: var(--background-tertiary) !important;}
@@ -300,7 +332,7 @@
 .message-2qRu38 { background: var(--background-primary) !important; }
 
 /* Infobulles */
-.tooltip-2QfLtc { display: block; background: var(--background-tertiary) !important;}
+.tooltip-2QfLtc { display: var(--tooltips); background: var(--background-tertiary) !important;}
 
 /* Combo clavier */
 .keyboardShortcutsModal-3piNz7 { background: var(--background-primary) !important; }
