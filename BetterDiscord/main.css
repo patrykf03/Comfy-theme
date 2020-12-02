@@ -1,35 +1,3 @@
-:root { 
-
-    /* -- Addons -- */
-
-    /* BetterAvatar Popout */
-
-    --popout-status-icon: none; /* Set it to "block" if u want to have the status icon in big popouts */
-    --popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
-    --avatar-radius: 10%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
-
-    /* Colored emoji picker */
-    --colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
-
-    /* -- Others settings -- */
-
-    /* User settings, Mute and Deafen buttons color */
-    --user-buttons: #096dc0;
-
-    /* User buttons color */
-    --chat-buttons: #6E85D3;
-
-    /* Circles next to role names */
-    --role-circle: 7px; /* Set it to "0px" if u don't want circles */
-
-    /* Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png) */
-    --tooltips: block; /* Set it to "none" if u don't want it */
-
-    /* Discord logo */
-    --discord-logo: none; /* Set it to "block" if u want it */
-
-} /* thx snapperito and Harley for the help :3
-
 /* --- 😀 PARTIE MP --- */
 
 /* Collone amis */
