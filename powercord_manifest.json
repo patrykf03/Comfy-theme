@@ -1,6 +1,6 @@
 {
     "name": "Comfy theme",
-    "description": "A Discord comfy theme",
+    "description": "A simple customisable comfy theme",
     "version": "1.2.0",
     "author": "Nyria#0001",
     "theme": "theme.scss",
