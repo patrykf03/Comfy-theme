@@ -1,4 +1,3 @@
-# Comfy-theme
 <img src="https://i.ibb.co/2MqBspd/comfy.png">
 
 ## 📥 Installation
