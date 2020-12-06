@@ -101,7 +101,8 @@
 .animatorTop-2Y7x2r > .styleFixed-sX-yHV { width: 45px; background: var(--background-tertiary) !important;}
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
-.description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
+.description-2L932D, .status-1fhblQ { display: none;}
+.separator-2I32lJ { display: var(--separators);}
 [aria-label="Hide Game Activity"] > svg, [aria-label="Show Game Activity"] > svg { margin-left: -2px;}
 
 .animatorTop-2Y7x2r > .menu-3sdvDG::after { 

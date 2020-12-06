@@ -101,7 +101,8 @@
 .animatorTop-2Y7x2r > .styleFixed-sX-yHV { width: 45px; background: var(--background-tertiary) !important;}
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
-.description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
+.description-2L932D, .status-1fhblQ { display: none;}
+.separator-2I32lJ { display: var(--separators);}
 [aria-label="Hide Game Activity"] > svg, [aria-label="Show Game Activity"] > svg { margin-left: -2px;}
 
 .animatorTop-2Y7x2r > .menu-3sdvDG::after { 
@@ -227,11 +228,15 @@
 
 /* --- ⚙️ PARAMETRE SERVEUR --- */
 
+/* Notification de modifications */
+.container-2VW0UT { background: var(--background-tertiary) !important; }
+
 /* Selecteur de pays */
 .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 { background: var(--background-secondary-alt) !important; border: none;}
 
 /* Roles */
 .colorPickerCustom-2CWBn2 { background: var(--background-secondary) !important; }
+
 /* Emoji */
 .emojiInput-1aLNse { background: var(--background-secondary-alt) !important;}
 
@@ -246,7 +251,7 @@
 
 /* Intégrations */
 .card-o7rAq-, .header-146Xl5 { background: var(--background-secondary-alt) !important; }
-.body-1zRX82 { background: var(--background-secondary) !important; }
+.body-1zRX82, .cardPrimaryEditable-3KtE4g { background: var(--background-secondary) !important; }
 
 /* Widget */
 .colorGrey-2DXtkV { color: #fff !important; }
