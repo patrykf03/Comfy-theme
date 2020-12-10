@@ -13,10 +13,13 @@
 
     // -- Others settings --
 
-    // User settings, Mute and Deafen buttons color
-    --user-buttons: #096dc0;
+    // User settings color (Mute, Deafen and settings)
+    --user-buttons-color: #096dc0;
 
-    // User buttons color
+    // User settings spacing
+    --user-buttons-spacing: 10px;
+
+    // Chat buttons color
     --chat-buttons: #6E85D3;
 
     // Circles next to role names

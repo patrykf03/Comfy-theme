@@ -19,27 +19,24 @@
 /* Boutons utilisateur */
 .panels-j1Uci_ > .container-3baos1:not(.vp-audioviz-visualizer) {
     position: fixed;
-    background: var(--background-tertiary) !important;
     z-index: 5;
     bottom: 0px; left: 0px;
-    padding: 45px 15px 45px;
     margin-bottom: 0;
+    padding-left: 0;
+    align-items: flex-end;
 }
 
 .scroller-2TZvBN { margin-bottom: 140px;}
 
-.flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons); margin: 5px; }
-.container-3baos1 > .flex-1xMQg5:not(.spotify-buttons) { display: flex; flex-direction: column;}
-
-.flex-1xMQg5 > [aria-label="Hide Game Activity"], .flex-1xMQg5 > [aria-label="Show Game Activity"] { position: fixed; bottom: 136px; left: 15px; z-index: 5;}
-.flex-1xMQg5 > [aria-label="Hide Game Activity"]::after, .flex-1xMQg5 > [aria-label="Show Game Activity"]::after {
-    position: fixed;
-    content: "";
+.container-3baos1 > .flex-1xMQg5:not(.spotify-buttons) { 
+    display: flex; 
+    flex-direction: column;  
+    padding: 10px 15px 10px 15px; 
     background: var(--background-tertiary) !important;
-    bottom: 141px; left: 0px;
-    padding: 42px 72px 0 0;
-    z-index: -1;
 }
+
+.flex-1xMQg5:not(.spotify-buttons) > .button-14-BFJ { color: var(--user-buttons-color); margin: 0px 5px var(--user-buttons-spacing);}
+.flex-1xMQg5:not(.spotify-buttons) > .button-14-BFJ:last-child { margin-bottom: 5px; }
 
 /* Supprime le nom de l'utilsateur */
 .canCopy-2VBT7N { display: none; } 
