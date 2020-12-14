@@ -315,6 +315,9 @@
 /* Activité de jeux */
 .activityPanel-28dQGo { border-bottom: none; }
 
+/* Barre "Echec de chargement des messages */
+.messagesErrorBar-nyJGU7 { border-radius: 100px; padding-bottom: 0; margin-bottom: 5px;}
+
 /* -- USRBG Small Popout -- */
 .reduce-motion .userPopout-3XzG_A {
 	transform:translateZ(0);
