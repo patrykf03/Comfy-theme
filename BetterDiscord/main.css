@@ -303,6 +303,7 @@
 
 /* Infobulles */
 .tooltip-2QfLtc { display: var(--tooltips); background: var(--background-tertiary) !important;}
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK { border-top-color: var(--background-tertiary);}
 
 /* Combo clavier */
 .keyboardShortcutsModal-3piNz7 { background: var(--background-primary) !important; }
