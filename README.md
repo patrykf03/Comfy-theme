@@ -22,6 +22,9 @@ Need help ?
 - [BD User Guide](https://0x71.cc/bd/guide/#install-theme-win)
 - [Discord](https://discord.gg/0Tmfo5ZbORCRqbAd)
 
+## 🖌️ Customization
+Modify the `_custom.css` file into your theme folder
+
 ## 🖼️ Preview
 
 ### User card
