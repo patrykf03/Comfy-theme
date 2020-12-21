@@ -312,8 +312,8 @@
 .scroller-1JpcIc { background: var(--background-primary) !important; }
 .whyYouMightLikeIt-2zZIIj, .content-35aVm0, .bodySection-jqkkIP, .row-1bU71H { background: var(--background-secondary) !important; }
 
-/* Activité de jeux */
-.activityPanel-28dQGo { border-bottom: none; }
+/* Activité de jeux et salon vocal */
+.activityPanel-28dQGo, .container-1giJp5 { border-bottom: none; }
 
 /* Barre "Echec de chargement des messages */
 .messagesErrorBar-nyJGU7 { border-radius: 100px; padding-bottom: 0; margin-bottom: 5px;}
@@ -338,8 +338,8 @@
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
 	background-image: var(--user-background);
-    -webkit-mask-image: linear-gradient(#000, transparent);
-    filter: blur(0.5px);
+    -webkit-mask-image: linear-gradient(#0009, #0000);
+    mask-image: linear-gradient(0.25turn, #0009, #0000);
 }
 
 .protip-YaFfgO { display: none;}
@@ -370,6 +370,7 @@
     pointer-events:none;
     background: var(--user-background) center/cover no-repeat;
     -webkit-mask: linear-gradient(black, transparent 90%);
+    mask: linear-gradient(#000, transparent);
   }
   
   .headerInfo-30uryT,

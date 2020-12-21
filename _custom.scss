@@ -14,13 +14,13 @@
     // BetterSpotify --> Delete all until "Others settings" if u don't want it
     .powercord-spotify .spotify-seek-bar {
         position: absolute;
-        content: "";
         bottom: 0px;
         width: 240px;
         height: 55px;
         -webkit-mask-image: linear-gradient(0.25turn, #0009, #0003);
+        mask-image: linear-gradient(0.25turn, #0009, #0003);
     }
-    .powercord-spotify.hover .spotify-seek-bar { height: 63px !important; }
+    .powercord-spotify.hover .spotify-seek-bar { height: 63px; }
     .powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
 
     // -- Others settings --
