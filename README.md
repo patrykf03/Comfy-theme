@@ -28,10 +28,10 @@ Modify the `_custom.css` file into your theme folder
 ## 🖼️ Preview
 
 ### User card
-<img src="https://i.ibb.co/rQLhQqW/comfy2.png">
+<img src="https://i.ibb.co/k2DYT48/Capture1.png">
 
 ### User status picker
-<img src="https://i.ibb.co/nbvW9vK/comfy3.png">
+<img src="https://i.ibb.co/QJX84P8/Capture2.png">
 
 ## Credits
 
