@@ -11,7 +11,7 @@
     // Colored emoji picker
     --colored-emoji: grayscale(0%); // Change the value to "100%" if u want the basic one
 
-    // BetterSpotify --> Delete all until "Others settings" if u don't want it
+    // BetterSpotify --> Delete all until "BetterPopout" if u don't want it
     .powercord-spotify .spotify-seek-bar {
         position: absolute;
         bottom: 0px;
@@ -22,6 +22,26 @@
     }
     .powercord-spotify.hover .spotify-seek-bar { height: 63px; }
     .powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
+
+    // BetterPopout --> Delete all until "Others settings" if u don't want it
+
+    .headerTop-3C2Zn0 {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: "avatar info" "status status" "last last" "join join" "date date" "badges badges";
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .avatarWrapperNormal-3wFMbf {
+        margin: 0;
+        margin-right: 8px;
+    }
+    .customStatus-1bh2V9 {
+        grid-area: status;
+        text-align:center;
+    }
+    .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-child(3), .footer-1fjuF6 { display: none; }
+    .rolesList-22qj2L { margin-bottom: 0px; }
 
     // -- Others settings --
 

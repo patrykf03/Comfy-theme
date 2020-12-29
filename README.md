@@ -35,4 +35,4 @@ Modify the `_custom.css` file into your theme folder
 
 ## Credits
 
-Thanks a lot to Snapperito, Harley and others peeps that I forgot for the help !
+Thanks a lot to Snapperito, Harley, Tropical and others peeps that I forgot for the help !
