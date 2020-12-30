@@ -36,7 +36,8 @@
     }
     .customStatus-1bh2V9 {
         grid-area: status;
-        text-align:center;
+        text-align:center;      
+        margin-top: 25px;
     }
     .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-child(3), .footer-1fjuF6 { display: none; }
     .rolesList-22qj2L { margin-bottom: 0px; }
