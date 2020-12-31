@@ -123,8 +123,8 @@
 .emojiItemSelected-1aLkfV { background: var(--background-tertiary) !important;}
 
 /* i'm blue dabedi dabeda */
-.attachButtonPlus-jWVFah { fill: var(--chat-buttons);}
-.buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons); }
+.attachButtonPlus-jWVFah { fill: var(--chat-buttons) !important;}
+.buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons) !important; }
 .colorGrey-2DXtkV { background: var(--chat-buttons); }
 
 /* Barre de recherche */
