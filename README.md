@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/Zc1SsWy/Capture.png">
+<img src="https://i.ibb.co/2vMVc8Y/Capture.png">
 
 ## 📥 Installation
 
@@ -23,15 +23,13 @@ Need help ?
 - [Discord](https://discord.gg/0Tmfo5ZbORCRqbAd)
 
 ## 🖌️ Customization
-Modify the `_custom.css` file into your theme folder
+- For Powercord : Modify the `_custom.css` file into your theme folder
+- For BetterDiscord : Modify the `comfy.theme` file into your theme folder
 
 ## 🖼️ Preview
 
 ### User card
 <img src="https://i.ibb.co/k2DYT48/Capture1.png">
-
-### User status picker
-<img src="https://i.ibb.co/QJX84P8/Capture2.png">
 
 ## Credits
 
