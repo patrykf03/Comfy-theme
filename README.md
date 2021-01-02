@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/Zc1SsWy/Capture.png">
+<img src="https://i.ibb.co/2vMVc8Y/Capture.png">
 
 ## 📥 Installation
 
@@ -29,9 +29,6 @@ Modify the `_custom.css` file into your theme folder
 
 ### User card
 <img src="https://i.ibb.co/k2DYT48/Capture1.png">
-
-### User status picker
-<img src="https://i.ibb.co/QJX84P8/Capture2.png">
 
 ## Credits
 
