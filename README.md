@@ -23,8 +23,8 @@ Need help ?
 - [Discord](https://discord.gg/0Tmfo5ZbORCRqbAd)
 
 ## 🖌️ Customization
-For Powercord : Modify the `_custom.css` file into your theme folder
-For BetterDiscord : Modify the `comfy.theme` file into your theme folder
+- For Powercord : Modify the `_custom.css` file into your theme folder
+- For BetterDiscord : Modify the `comfy.theme` file into your theme folder
 
 ## 🖼️ Preview
 
