@@ -93,8 +93,8 @@
 /* --- ✏️ PARTIE SALONS --- */
 
 /* Supprime le fond du panel utilisateur */
-.container-3baos1 { height: 0;}
-.nameTag-3uD-yy { display: none;}
+.panels-j1Uci_ > .container-3baos1 { height: 0;}
+.panels-j1Uci_ > .container-3baos1 > .nameTag-3uD-yy { display: none;}
 
 /* Flèche catégeories */
 .mainContent-2h-GEV > .arrow-gKvcEx { display: none; }
