@@ -25,19 +25,12 @@
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
 
 /* Status */
-[id="status-picker"] > .scroller-3BxosC { display: flex; flex-direction: row;}
-
 .animatorTop-2Y7x2r > .styleFixed-sX-yHV {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
     width: auto;
-    background: var(--background-tertiary);
-    bottom: -60px;
-    left: 70px;
+    background: var(--background-secondary-alt);
 }
 
-.statusItem-33LqPf { grid-template-columns: none;}
+.statusItem-33LqPf { grid-template-columns: 10px;}
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
 .description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
@@ -45,22 +38,22 @@
 .animatorTop-2Y7x2r > .menu-3sdvDG::after { 
     content: "";
     position: absolute;
-    top: 45%;
-    left: 0%;
-    margin-left: -10px;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent var(--background-tertiary) transparent transparent;
+    border-color: var(--background-secondary-alt) transparent transparent transparent;
 }
 
 /* Boutons utilisateur */  
-.container-3baos1 > .flex-1xMQg5 {
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
     width: 100%;
     flex-direction: row-reverse;
     justify-content: space-around;
 }
 
-.flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
+.container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
 
 /* Spotify */
 .powercord-spotify {
