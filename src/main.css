@@ -244,8 +244,8 @@
 .headerExpanded-CUEwZ5, .headerDefault-1wrJcN, .headerClickable-2IVFo9 { background: var(--background-secondary-alt) !important;} /* Coloration des logs */
 .auditLog-3jNbM6 { border-color: var(--background-secondary) !important;}
 .divider-1pnAR2 { display: none;}
-.popoutList-T9CKZQ { background: var(--background-secondary-alt) !important; }
-.selectableItem-1MP3MQ:hover { background: var(--background-secondary) !important; }
+.popoutList-T9CKZQ { background: var(--background-secondary-alt) !important;}
+.selectableItem-1MP3MQ:hover { background: var(--background-secondary) !important;}
 
 /* Intégrations */
 .card-o7rAq-, .header-146Xl5 { background: var(--background-secondary-alt); border-color: transparent !important;}
