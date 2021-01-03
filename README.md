@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/2vMVc8Y/Capture.png">
+<img src="https://i.ibb.co/tY3jMJJ/Capture.png">
 
 ## 📥 Installation
 
