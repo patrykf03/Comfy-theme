@@ -15,7 +15,7 @@
 .wrapper-3Rixsz:hover, .memberListItem-31QoHj:hover, .body-1ld4H7 { background: var(--background-secondary-alt) !important;}
 
 /* --- 📜 PARTIE LISTE SERVEURS --- */
-.scroller-2TZvBN { margin-bottom:160px;}
+.scroller-2TZvBN { margin-bottom:130px;}
 
 /* Avatar */
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
@@ -55,22 +55,11 @@
 
 /* Boutons utilisateur */  
 .container-3baos1 > .flex-1xMQg5 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    width: 67px;
-    height: 25px;
-    overflow: hidden;
-    position: fixed;
-    transition: 0.5s;
-    z-index: 1;
-    bottom: 70px;
-    left: 0px;
-    background: var(--background-secondary-alt);
-    border-radius: 0 5px 5px 0;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
-.container-3baos1 > .flex-1xMQg5:hover { height: 140px; transition: 0.5s; justify-content: center;}
-.container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { margin-top: 3px; margin-bottom: 3px;}
+
 .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
 .st0  { fill: var(--user-buttons-color) !important;}
 
@@ -78,7 +67,7 @@
 .container-6sXIoE {
     position: fixed;
     transition: left 0.5s;
-    bottom: 100px;
+    bottom: 70px;
     left: -198px;
     z-index: 1;
     width: 265px;
@@ -99,7 +88,6 @@
 /* --- ✏️ PARTIE SALONS --- */
 
 /* Supprime le fond du panel utilisateur */
-.panels-j1Uci_ > .container-3baos1 { height: 0;}
 .panels-j1Uci_ > .container-3baos1 > .nameTag-3uD-yy { display: none;}
 
 /* Flèche catégeories */
