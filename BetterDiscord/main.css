@@ -40,8 +40,7 @@
 .statusItem-33LqPf { grid-template-columns: none;}
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
-.description-2L932D, .status-1fhblQ { display: none;}
-.separator-2I32lJ { display: none;}
+.description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
 
 .animatorTop-2Y7x2r > .menu-3sdvDG::after { 
     content: "";
@@ -96,8 +95,6 @@
 
 /* Notification de mention */
 .unreadMentionsIndicatorBottom-BXS58x { margin-bottom: 163px;}
-
-.vp-audioviz-bar { background: #042d50fb; }
 
 /* --- ✏️ PARTIE SALONS --- */
 
