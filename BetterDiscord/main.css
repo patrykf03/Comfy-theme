@@ -242,6 +242,7 @@
 
 /* Emoji */
 .emojiInput-1aLNse { background: var(--background-secondary-alt) !important;}
+.card-FDVird:before { background: var(--background-secondary) !important; border-color: transparent !important;}
 
 /* Logs du serveur */
 .headerExpanded-CUEwZ5, .headerDefault-1wrJcN, .headerClickable-2IVFo9 { background: var(--background-secondary-alt) !important;} /* Coloration des logs */
