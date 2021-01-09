@@ -15,22 +15,43 @@
 .wrapper-3Rixsz:hover, .memberListItem-31QoHj:hover, .body-1ld4H7 { background: var(--background-secondary-alt) !important;}
 
 /* --- 📜 PARTIE LISTE SERVEURS --- */
-.scroller-2TZvBN { margin-bottom:130px;}
+
+/* Liste serveur */
+.base-3dtUhz { left: 80px; }
+.wrapper-1Rf91z { width: 80px; margin-bottom: 65px;}
+
+.scroller-2TZvBN > [aria-label], .tutorialContainer-SGrQ1h, .scroller-2TZvBN > .listItem-2P_4kh {
+    position: relative;
+    background: var(--background-tertiary);
+    z-index: 5;
+}
+
+/* Serveurs */
+.listItem-2P_4kh { padding: 0 0 10px; margin: 0px;}
+.wrapper-21YSNc, .listItem-2P_4kh { width: auto; }
+
+/* Dossiers */
+.wrapper-21YSNc > ul { height: auto !important;}
+.expandedFolderBackground-2sPsd- { width: 56px;}
 
 /* Avatar */
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
-    position: fixed;
-    bottom: 18px; left: 13px;
+    position: fixed; 
+    z-index: 1;
+    bottom: 18px; 
+    left: 18px;
 }
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
 
 /* Status */
 .animatorTop-2Y7x2r > .styleFixed-sX-yHV {
-    width: auto;
+    width: 42px;
     background: var(--background-secondary-alt);
 }
-
-.statusItem-33LqPf { grid-template-columns: 10px;}
+.customStatusItem-1TTIxM { grid-template-areas: "status" "clear"; grid-template-columns: 0fr 0px; grid-template-rows: 2fr 30px;}
+.customStatusWithEmoji-8-XZ8I { grid-template-areas: "icon" "clear"; grid-template-columns: 0fr 0px; padding-top: 0;}
+.customStatusWithEmoji-8-XZ8I > .customText-tY5LJn { grid-area: unset; }
+.clearStatusIcon-3-MDNF { margin-left: -3px;}
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
 .description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
@@ -60,17 +81,38 @@
     position: fixed;
     transition: left 0.5s;
     bottom: 70px;
-    left: -214px;
+    left: -212px;
     z-index: 1;
     width: 280px;
     background: var(--background-secondary-alt);
     border-radius: 0 5px 5px 0;
 }
+.avatar-SmRMf2.spotify-cover { width: 40px !important; height: 40px !important; }
+.avatarWrapper-2yR4wp { margin-right: 0;}
 .powercord-spotify:hover { left: 0px;}
 .powercord-spotify > .container-3baos1 { flex-direction: row-reverse;}
 .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy { margin-right: 20px;}
 .spotify-buttons { margin-right: 10px;}
+.spotify-seek-bar { width: 280px !important;}
 .powercord-spotify.hover .spotify-seek-elements { display: none; }
+
+/* Jeux */
+.panel-24C3ux {
+    position: fixed;
+    transition: left 0.5s;
+    bottom: 70px;
+    left: -200px;
+    z-index: 1;
+    width: 250px;
+    height: 39px;
+    background: var(--background-secondary-alt);
+    border-radius: 0 5px 5px 0;
+}
+.panel-24C3ux:hover { left: 0px;}
+.panel-24C3ux > .body-GmmuPm, .gameWrapper-1jIQAX { flex-direction: row-reverse; }
+.gameWrapper-1jIQAX { width: 220px; justify-content: space-between;}
+
+.gameIcon-gg34Dz { width: 40px !important; height: 40px !important; }
 
 /* Notification de mention */
 .unreadMentionsIndicatorBottom-BXS58x { margin-bottom: 163px;}
