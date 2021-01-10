@@ -101,7 +101,7 @@
     position: fixed;
     transition: left 0.5s;
     bottom: 70px;
-    left: 0px;
+    left: -198px;
     z-index: 1;
     width: 250px;
     height: 39px;
