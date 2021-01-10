@@ -96,7 +96,8 @@
 .gameIcon-gg34Dz { width: 40px !important; height: 40px !important; }
 
 /* Notification de mention */
-.unreadMentionsIndicatorBottom-BXS58x { margin-bottom: 163px;}
+.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh { left: 3px;}
+.unreadMentionsIndicatorBottom-BXS58x { margin-bottom: -5px;}
 
 /* --- ✏️ PARTIE SALONS --- */
 
