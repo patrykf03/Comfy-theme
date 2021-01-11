@@ -354,6 +354,9 @@
 /* Activité de jeux et salon vocal */
 .activityPanel-28dQGo, .container-1giJp5 { border-bottom: none; }
 
+/* Commandes / */
+.categoryHeader-O1zU94 { background: var(--background-secondary) !important; }
+
 /* -- USRBG Small Popout -- */
 .reduce-motion .userPopout-3XzG_A {
 	transform:translateZ(0);
