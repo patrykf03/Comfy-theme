@@ -59,32 +59,32 @@
  } /* thx snapperito and Harley for the help :3 */
  
  .theme-dark {
-     --background-tertiary: #101320 !important;
-     --background-secondary: #1e2233 !important;
-     --background-secondary-alt: #191f2e !important;
-     --background-primary: #23283d !important;
-     --channeltextarea-background: #191f2e !important;
-     --background-accent: #6E85D3 !important;
-     --background-modifier-hover: #1c2030 !important;
-     --background-modifier-active: #1a1e2e !important;
-     --background-modifier-selected: #191f2e !important;
-     --deprecated-card-bg: #12141f63 !important;
-     --background-floating: #101320 !important;
-     --deprecated-quickswitcher-input-background:#101320 !important;
-     --scrollbar-auto-thumb: #121722 !important;
-     --scrollbar-auto-track: #191f2e !important;
-     --scrollbar-thin-thumb: #141925 !important;
-     --spotify-color: #096dc0 !important;
+     --background-tertiary: #101320;
+     --background-secondary: #1e2233;
+     --background-secondary-alt: #191f2e;
+     --background-primary: #23283d;
+     --channeltextarea-background: #191f2e;
+     --background-accent: #6E85D3;
+     --background-modifier-hover: #1c2030;
+     --background-modifier-active: #1a1e2e;
+     --background-modifier-selected: #191f2e;
+     --deprecated-card-bg: #12141f63;
+     --background-floating: #101320;
+     --deprecated-quickswitcher-input-background:#101320;
+     --scrollbar-auto-thumb: #121722;
+     --scrollbar-auto-track: #191f2e;
+     --scrollbar-thin-thumb: #141925;
+     --spotify-color: #096dc0;
      --elevation-low: none;
  }
  
  .theme-light {
-     --background-tertiary: #101320 !important;
-     --background-secondary: #1e2233 !important;
-     --background-secondary-alt: #191f2e !important;
-     --background-primary: #23283d !important;
-     --header-primary: #fff !important;
-     --header-secondary: #b1b5b9 !important;
-     --text-normal: #8e9297 !important;
-     --scrollbar-thin-thumb: #141925 !important;
+     --background-tertiary: #101320;
+     --background-secondary: #1e2233;
+     --background-secondary-alt: #191f2e;
+     --background-primary: #23283d;
+     --header-primary: #fff;
+     --header-secondary: #b1b5b9;
+     --text-normal: #8e9297;
+     --scrollbar-thin-thumb: #141925;
  }
