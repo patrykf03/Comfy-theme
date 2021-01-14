@@ -7,27 +7,23 @@
 
  @import "https://nyri4.github.io/Comfy-theme/BetterDiscord/main.css";
 
- :root { 
- 
-     /* -- Addons -- */
- 
-     /* BetterAvatar Popout */
- 
-     --popout-status-icon: none; /* Set it to "block" if u want to have the status icon in big popouts */
-     --popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
-     --avatar-radius: 10%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
- 
-     /* Colored emoji picker */
-     --colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
-}
+    /* -- Addons -- */
 
     /* BetterPopout --> Delete all until "Others settings" if u don't want it */
     .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-child(3), .footer-1fjuF6 { display: none; }
     .rolesList-22qj2L { margin-bottom: 0px; }
 
-    /* -- Others settings -- */
+ :root { 
+     /* BetterAvatar Popout */
 
-:root {
+     --popout-status-icon: none; /* Set it to "block" if u want to have the status icon in big popouts */
+     --popout-status-mask: none; /* Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts */
+     --avatar-radius: 10%; /* Change the roundness of avatar in big popouts, u need to disable the mask to use this */
+ 
+    /* Colored emoji picker */
+     --colored-emoji: grayscale(0%); /* Change the value to "100%" if u want the basic one */
+
+    /* -- Others settings -- */
 
     /* Image when u don't have the Spotify/Game/Stream popup */
     --no-activity-image: url("https://emoji.gg/assets/emoji/WumpusLove.png"); /* Put the url of your image here */
@@ -40,9 +36,6 @@
 
     /* User settings color (Mute, Deafen and settings) */
     --user-buttons-color: #096dc0;
-
-    /* User settings spacing */
-    --user-buttons-spacing: 10px;
 
     /* Chat buttons color */
     --chat-buttons: #6E85D3;
