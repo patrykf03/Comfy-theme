@@ -18,13 +18,8 @@
 
 /* Liste serveur */
 .base-3dtUhz { left: 80px; }
-.wrapper-1Rf91z { width: 80px; margin-bottom: 130px;}
-
-.scroller-2TZvBN > [aria-label], .tutorialContainer-SGrQ1h, .scroller-2TZvBN > .listItem-2P_4kh {
-    position: relative;
-    background: var(--background-tertiary);
-    z-index: 5;
-}
+.wrapper-1Rf91z { width: 80px; margin-bottom: 63px;}
+.scroller-2TZvBN { padding-bottom: 56px;}
 
 /* Serveurs */
 .listItem-2P_4kh { padding: 0 0 10px; margin: 0px;}
@@ -35,55 +30,44 @@
 .expandedFolderBackground-2sPsd- { width: 56px;}
 
 /* Status */
-.animatorTop-2Y7x2r > .styleFixed-sX-yHV {
-    width: 42px;
-    background: var(--background-secondary-alt);
+#status-picker {
+    position: absolute;
+    bottom: -69px !important; 
+    left: 62px !important;
+    width: 240px;
+    height: 62px;
+    border-radius: 0;
+    background: var(--background-tertiary);
 }
+#status-picker > .scroller-3BxosC { display: flex; flex-direction: row; justify-content: center; padding-left: 0;}
+
+.full-motion .scale-3iLZhb.animatorTop-2Y7x2r { transform-origin: left;}
 .customStatusItem-1TTIxM { grid-template-areas: "status" "clear"; grid-template-columns: 0fr 0px; grid-template-rows: 2fr 30px;}
 .customStatusWithEmoji-8-XZ8I { grid-template-areas: "icon" "clear"; grid-template-columns: 0fr 0px; padding-top: 0;}
 .customStatusWithEmoji-8-XZ8I > .customText-tY5LJn { grid-area: unset; }
 .clearStatusIcon-3-MDNF { margin-left: -3px;}
-.footer-2gL1pp { background: var(--background-tertiary) !important;}
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
 .description-2L932D, .status-1fhblQ, .separator-2I32lJ { display: none;}
+.statusItem-33LqPf { grid-template-columns: 1fr 0; padding: 11px 14px;}
+.statusItem-33LqPf > svg { width: 16px; height: 16px;}
+.statusItem-33LqPf > div { width: 19px; height: 19px;}
 
-.animatorTop-2Y7x2r > .menu-3sdvDG::after { 
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: var(--background-secondary-alt) transparent transparent transparent;
-}
+/* Status personnalisé */
+.footer-2gL1pp { background: var(--background-tertiary) !important;}
 
 /* Avatar */
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
     position: fixed; 
-    z-index: 1;
-    bottom: 18px; 
+    bottom: 17px; 
     left: 18px;
-}
+}  
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
-
-.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp::after {
-    position: absolute !important;
-    content: "" !important;
-    bottom: 53px !important;
-    left: -2px !important;
-    width: 50px !important;
-    height: 50px !important;
-    background-size: 100% !important;
-    background-image: var(--no-activity-image) !important;
-    opacity: var(--no-activity-image-opacity) !important;
-}
 
 /* Spotify */
 .container-6sXIoE {
     position: fixed;
     transition: left 0.5s;
-    bottom: 65px;
+    bottom: 62px;
     left: -196px;
     z-index: 3;
     width: 265px;
@@ -122,12 +106,12 @@
 .panel-24C3ux {
     position: fixed;
     transition: left 0.5s;
-    bottom: 70px;
+    bottom: 63px;
     left: -198px;
     z-index: 2;
     width: 250px;
     height: 39px;
-    background: var(--background-secondary);
+    background: var(--background-secondary-alt);
     border-radius: 0 5px 5px 0;
 }
 .panel-24C3ux:hover { left: 0px; z-index: 6;}
@@ -148,6 +132,7 @@
     flex-direction: row-reverse;
     justify-content: space-around;
 }
+.panels-j1Uci_ > .container-3baos1 { height: 62px; }
 .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
 .st0 { fill: var(--user-buttons-color) !important;}
 
