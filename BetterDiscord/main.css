@@ -68,15 +68,15 @@
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
 
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp::after {
-    position: absolute;
-    content: "";
-    bottom: 53px;
-    left: -2px;
-    width: 50px;
-    height: 50px;
-    background-size: 100%;
-    background-image: var(--no-activity-image);
-    opacity: var(--no-activity-image-opacity);
+    position: absolute !important;
+    content: "" !important;
+    bottom: 53px !important;
+    left: -2px !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-size: 100% !important;
+    background-image: var(--no-activity-image) !important;
+    opacity: var(--no-activity-image-opacity) !important;
 }
 
 /* Spotify */
