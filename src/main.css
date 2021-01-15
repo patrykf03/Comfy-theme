@@ -276,6 +276,7 @@
 /* Facturation */
 .paymentRow-2e7VM6, .pageActions-1SVAnA, .codeRedemptionRedirect-1wVR4b { background: var(--background-secondary-alt) !important; }
 .expandedInfo-3kfShd { background: var(--background-secondary) !important; }
+form > .checked-3_4uQ9 { background: transparent !important; border-color: transparent;}
 
 /* Voix & Vidéo */
 .previewOverlay-2O7_KC { background: var(--background-secondary-alt) !important; border-color: var(--background-tertiary) !important; }
