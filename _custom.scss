@@ -25,8 +25,10 @@
     .powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
 
     // BetterPopout --> Delete all until "Others settings" if u don't want it
-    .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-child(3), .footer-1fjuF6 { display: none; }
-    .rolesList-22qj2L { margin-bottom: 0px; }
+    .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-last-child(2), .footer-1fjuF6 { display: none; }
+    .body-3iLsc4 { padding: 0;}
+    .bodyTitle-Y0qMQz:nth-child(1) { padding: 15px 0 5px 10px; margin: 0;}
+    .rolesList-22qj2L { margin: 10px;}
 
     // -- Others settings --
 
