@@ -384,6 +384,9 @@
 /* Commandes / */
 .categoryHeader-O1zU94 { background: var(--background-secondary) !important; }
 
+/* Popups */
+.root-1gCeng, .footer-2gL1pp, .modal-yWgWj- { box-shadow: none !important; }
+
 /* -- USRBG Small Popout -- */
 .reduce-motion .userPopout-3XzG_A {
 	transform:translateZ(0);
