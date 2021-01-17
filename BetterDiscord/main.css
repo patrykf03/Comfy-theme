@@ -131,8 +131,25 @@
 .gameIcon-gg34Dz { width: 40px !important; height: 40px !important; }
 
 /* Notification de mention */
-.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh { left: 3px;}
-.unreadMentionsIndicatorBottom-BXS58x { margin-bottom: -5px;}
+
+/* Top */
+.unreadMentionsIndicatorTop-gA6RCh { width: 100%; height: 50px; padding: 0; top: -7px;}
+.unreadMentionsIndicatorTop-gA6RCh > .unreadMentionsBar-1VrBNe { 
+    border-radius: 0; 
+    background: linear-gradient(#f04747, #0000);
+    transition: 0.3s;
+}
+.unreadMentionsIndicatorTop-gA6RCh > .unreadMentionsBar-1VrBNe:active { background: linear-gradient(#f04747, #0000);}
+
+/* Bottom */
+.unreadMentionsIndicatorBottom-BXS58x { width: 100%; height: 15px; padding: 0;}
+.unreadMentionsIndicatorBottom-BXS58x > .unreadMentionsBar-1VrBNe { 
+    border-radius: 0; 
+    background: linear-gradient(#0000, #f04747);
+}
+.unreadMentionsIndicatorBottom-BXS58x > .unreadMentionsBar-1VrBNe:active { background: linear-gradient(#0000, #f04747);}
+
+.unreadMentionsBar-1VrBNe > .text-2e2ZyG { display: none; }
 
 /* --- ✏️ PARTIE SALONS --- */
 
