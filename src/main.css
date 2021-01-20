@@ -369,7 +369,7 @@
 .message-2qRu38 { background: var(--background-primary) !important; }
 
 /* Infobulles */
-.tooltip-2QfLtc { display: var(--tooltips); background: var(--background-tertiary) !important;}
+.tooltip-2QfLtc { display: var(--tooltips); background: var(--background-tertiary);}
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK { border-top-color: var(--background-tertiary);}
 
 /* Combo clavier */
