@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/Y0d38sQ/Preview.png">
+<img src="https://i.ibb.co/vQMd4PZ/Preview.png">
 
 ## 📥 Installation
 
@@ -29,7 +29,7 @@ Need help ?
 ## 🖼️ Preview
 
 ### User card
-<img src="https://i.ibb.co/k2DYT48/Capture1.png">
+<img src="https://i.ibb.co/MN5rTTK/User-card.png">
 
 ## Credits
 
