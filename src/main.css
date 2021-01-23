@@ -289,12 +289,12 @@
 .topSectionPlaying-1J5E4n > .header-QKLPzZ > .actionButton-3W1xZa { background: #46599c81 !important; backdrop-filter: blur(10px);}
 .topSectionStreaming-1Tpf5X > .header-QKLPzZ > .button-38aScr { background: #5936954b !important; backdrop-filter: blur(10px);}
 .topSectionSpotify-1lI0-P > .header-QKLPzZ > .actionButton-3W1xZa { background: #1db9544b !important; backdrop-filter: blur(10px);}
-.topSectionXbox-3fWLjS > .header-QKLPzZ > .actionButton-3W1xZa { background: #107c104d !important; backdrop-filter: blur(10px);}
-.tabBarContainer-1s1u-z { border-top: none; }
+.topSectionXbox-3fWLjS > .header-QKLPzZ > .actionButton-3W1xZa { background: #3a9d6f50 !important; backdrop-filter: blur(10px);}
+.tabBarContainer-1s1u-z { border-top: none; padding-left: 0;}
 
 /* Menu (infos/serveur/amis en commun)*/
-.tabBarContainer-1s1u-z { padding: 0 15%;}
-.tabBarItem-1b8RUP { margin: 0 20px; }
+.tabBarItem-1b8RUP { margin: 0 30px; width: 30px;}
+.tabBar-2MuP6- { justify-content: center;}
 .tabBar-2MuP6- > * {
     text-indent: 100%;
     overflow: hidden;
@@ -308,9 +308,9 @@
     background-repeat: no-repeat;
 }
 
-[aria-controls="USER_INFO-tab"]:after { background-image:url("https://i.ibb.co/rF9Bq8s/Capture.png"); left: 32%;}
-[aria-controls="MUTUAL_GUILDS-tab"]:after { background-image: url("https://i.ibb.co/6FcvTmQ/guild-512.png"); left: 35%;}
-[aria-controls="MUTUAL_FRIENDS-tab"]:after { background-image:url("https://i.ibb.co/rc5DQ4n/Capture.png"); left: 32%;}
+[aria-controls="USER_INFO-tab"]:after { background-image:url("https://i.ibb.co/rF9Bq8s/Capture.png");}
+[aria-controls="MUTUAL_GUILDS-tab"]:after { background-image: url("https://i.ibb.co/6FcvTmQ/guild-512.png");}
+[aria-controls="MUTUAL_FRIENDS-tab"]:after { background-image:url("https://i.ibb.co/rc5DQ4n/Capture.png");}
 
 /* Réseaux sociaux */
 .connectedAccount-36nQx7 {
