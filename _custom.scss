@@ -3,7 +3,6 @@
     // -- Addons --
 
     // BetterAvatar Popout
-
     --popout-status-icon: none; // Set it to "block" if u want to have the status icon in big popouts
     --popout-status-mask: none; // Set it to "url(#svg-mask-avatar-status-round-80)" if u want to enable the avatar mask in big popouts
     --avatar-radius: 10%; // Change the roundness of avatar in big popouts, u need to disable the mask to use this
@@ -11,8 +10,7 @@
     // Colored emoji picker
     --colored-emoji: grayscale(0%); // Change the value to "100%" if u want the basic one
 
-    // BetterSpotify --> Delete all until "BetterPopout" if u don't want it
-    
+    // BetterSpotify --> Delete all until "Other settings" if u don't want it
     .powercord-spotify .spotify-seek-bar {
         position: absolute;
         bottom: 0px;
@@ -23,12 +21,6 @@
     }
     .powercord-spotify.hover { height: 55px; }
     .powercord-spotify > .container-3baos1 > .avatarWrapper-2yR4wp, .powercord-spotify > .container-3baos1 > .nameTag-3uD-yy, .spotify-buttons, .spotify-seek-duration { z-index: 1; }
-
-    // BetterPopout --> Delete all until "Others settings" if u don't want it
-    .note-3HfJZ5, .bodyTitle-Y0qMQz:nth-last-child(2), .footer-1fjuF6 { display: none; }
-    .body-3iLsc4 { padding: 0;}
-    .bodyTitle-Y0qMQz:nth-child(1) { padding: 15px 0 5px 10px; margin: 0;}
-    .rolesList-22qj2L { margin: 10px;}
 
     // -- Others settings --
 
@@ -49,10 +41,9 @@
     // Circles next to role names
     --role-circle: 7px; // Set it to "0px" if u don't want circles
 
-    // Tooltips (Example : https://i.ibb.co/hDSQtqw/Capture.png)
+    // Tooltips
     --tooltips: block; // Set it to "none" if u don't want it
 
     // Discord logo
     --discord-logo: none; // Set it to "block" if u want it
-
-} // thx snapperito and Harley for the help :3
+}
