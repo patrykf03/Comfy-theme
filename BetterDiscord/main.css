@@ -329,11 +329,12 @@
     width: 30px;
     height: 30px;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-[data-item-id="USER_INFO"]:after { background-image:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M14 8.00598C14 10.211 12.206 12.006 10 12.006C7.795 12.006 6 10.211 6 8.00598C6 5.80098 7.794 4.00598 10 4.00598C12.206 4.00598 14 5.80098 14 8.00598ZM2 19.006C2 15.473 5.29 13.006 10 13.006C14.711 13.006 18 15.473 18 19.006V20.006H2V19.006Z'%3E%3C/path%3E%3C/svg%3E"); left: 32%;}
-[data-item-id="MUTUAL_GUILDS"]:after { background-image: url("https://i.ibb.co/6FcvTmQ/guild-512.png"); left: 35%;}
-[data-item-id="MUTUAL_FRIENDS"]:after { background-image:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='white' d='M0.5,0 L0.5,1.5 C0.5,5.65 2.71,9.28 6,11.3 L6,16 L21,16 L21,14 C21,11.34 15.67,10 13,10 C13,10 12.83,10 12.75,10 C8,10 4,6 4,1.5 L4,0 L0.5,0 Z M13,0 C10.790861,0 9,1.790861 9,4 C9,6.209139 10.790861,8 13,8 C15.209139,8 17,6.209139 17,4 C17,1.790861 15.209139,0 13,0 Z' transform='translate(2 4)'%3E%3C/path%3E%3Cpath d='M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"); left: 32%;}
+[aria-controls="USER_INFO-tab"]:after { background-image:url("https://i.ibb.co/rF9Bq8s/Capture.png"); left: 32%;}
+[aria-controls="MUTUAL_GUILDS-tab"]:after { background-image: url("https://i.ibb.co/6FcvTmQ/guild-512.png"); left: 35%;}
+[aria-controls="MUTUAL_FRIENDS-tab"]:after { background-image:url("https://i.ibb.co/rc5DQ4n/Capture.png"); left: 32%;}
 
 /* Réseaux sociaux */
 .connectedAccount-36nQx7 {
