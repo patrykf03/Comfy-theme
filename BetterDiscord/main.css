@@ -599,3 +599,8 @@
 
 .cardPrimaryOutline-29Ujqw { background: var(--background-secondary);}
 .bottomDivider-1K9Gao { border-bottom-color: transparent !important;}
+
+/* PermisssionViewer support, thx _david_ */
+#permissions-modal-wrapper .header {background: var(--background-tertiary);}
+#permissions-modal-wrapper .role-side,#permissions-modal-wrapper .perm-side {background: var(--background-secondary);}
+.roleCircle-3xAZ1j { width: var(--role-circle); height: var(--role-circle);}
