@@ -574,4 +574,4 @@
 /* PermisssionViewer support, thx _david_ */
 #permissions-modal-wrapper .header {background: var(--background-tertiary) !important;}
 #permissions-modal-wrapper .role-side,#permissions-modal-wrapper .perm-side {background: var(--background-secondary) !important;}
-.roleCircle-3xAZ1j { width: var(--role-circle); height: var(--role-circle);}
+.roleCircle-3xAZ1j { width: var(--role-circle) !important; height: var(--role-circle) !important;}
