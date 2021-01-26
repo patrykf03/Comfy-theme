@@ -152,7 +152,7 @@
 
 .unreadMentionsBar-1VrBNe > .text-2e2ZyG { display: none; }
 
-/* --- ✏️ PARTIE SALONS --- */
+/* /* --- ✏️ PARTIE SALONS --- */
 
 /* Boutons utilisateur */  
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
@@ -195,7 +195,7 @@
 /* Bottom - Nouveaux messages */
 .unreadBottom-1_LF_w > .unreadBar-3t3sYc.unread-1xRYoj { border-radius: 0; background: linear-gradient(#0000, #667BC3);}
 
-.unreadBar-3t3sYc > .text-2e2ZyG { display: none; }
+.unreadBar-3t3sYc > .text-2e2ZyG { display: none; } */
 
 /* --- 💬 PARTIE TCHAT --- */
 
