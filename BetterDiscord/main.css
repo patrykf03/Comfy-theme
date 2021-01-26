@@ -152,51 +152,6 @@
 
 .unreadMentionsBar-1VrBNe > .text-2e2ZyG { display: none; }
 
-/* /* --- ✏️ PARTIE SALONS --- */
-
-/* Boutons utilisateur */  
-.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
-    width: 100%;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-}
-.panels-j1Uci_ > .container-3baos1 { height: 62px; }
-.container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
-.st0 { fill: var(--user-buttons-color) !important;}
-
-/* Supprime le fond du panel utilisateur */
-.panels-j1Uci_ > .container-3baos1 > .nameTag-3uD-yy { display: none;}
-
-/* Flèche catégeories */
-.mainContent-2h-GEV > .arrow-gKvcEx { display: none; }
-
-/* Ajout rôle permissions salon */
-.header-2bNvm4 { background: var(--background-secondary-alt) !important; }
-.sectionTag-pXyto9 { background: var(--background-secondary) !important; }
-
-/* Notification */
-
-/* Top */
-.container-1taM1r {  background: var(--background-secondary) !important; z-index: 3;}
-.unreadTop-3rAB3r { width: 100%; padding: 0; z-index: 2; top: -9px;}
-
-/* Bottom */
-.unreadBottom-1_LF_w { width: 100%; height: 15px; padding: 0;}
-
-/* Top - Ping */
-.unreadTop-3rAB3r > .unreadBar-3t3sYc.mention-1f5kbO { border-radius: 0; background: linear-gradient(#f04747, #0000);}
-
-/* Bottom - Ping */
-.unreadBottom-1_LF_w > .unreadBar-3t3sYc.mention-1f5kbO { border-radius: 0; background: linear-gradient(#0000, #f04747);}
-
-/* Top - Nouveaux messages */
-.unreadTop-3rAB3r > .unreadBar-3t3sYc.unread-1xRYoj { border-radius: 0; background: linear-gradient(#667BC3, #0000);}
-
-/* Bottom - Nouveaux messages */
-.unreadBottom-1_LF_w > .unreadBar-3t3sYc.unread-1xRYoj { border-radius: 0; background: linear-gradient(#0000, #667BC3);}
-
-.unreadBar-3t3sYc > .text-2e2ZyG { display: none; } */
-
 /* --- 💬 PARTIE TCHAT --- */
 
 /* Barre du salon */
