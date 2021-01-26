@@ -66,14 +66,6 @@
 /* Status personnalisé */
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
 
-/* Avatar */
-.panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
-    position: fixed; 
-    bottom: 17px; 
-    left: 18px;
-}  
-.avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
-
 /* Spotify */
 .container-6sXIoE {
     position: fixed;
