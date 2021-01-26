@@ -1,20 +1,3 @@
-/* --- 😀 PARTIE MP --- */
-
-/* USRBG */
-/* Collone amis */
-.peopleColumn-29fq28 { background: var(--background-primary);}
-
-/* Appel amis */
-.primaryDark-3mSFDl {background: var(--background-secondary-alt) !important;}
-
-/* Selecteur région appel amis */
-.regionSelectPopout-p9-0_W { background: var(--background-secondary-alt) !important;}
-.quickSelect-3BxO0K { margin-top: 10px;}
-
-/* Activité amis */
-.itemCard-v9viV7.active-1xchHY, .itemCard-v9viV7:hover, .popout-38lTFE { background: var(--background-tertiary) !important;}
-.wrapper-3Rixsz:hover, .memberListItem-31QoHj:hover, .body-1ld4H7 { background: var(--background-secondary-alt) !important;}
-
 /* --- 📜 PARTIE LISTE SERVEURS --- */
 
 /* Liste serveur */
